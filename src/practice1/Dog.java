@@ -15,7 +15,7 @@ public class Dog {
     }
 
     public Dog() {
-        name = "Бебра";
+        name = "Doge";
         age = 0;
     }
 
@@ -41,4 +41,8 @@ public class Dog {
                 ", age=" + age +
                 '}';
     }
+    
+    public void intoHumanAge() {
+		System.out.println(name+"'s age in human years is "+age*7+" years");
+	}
 }
