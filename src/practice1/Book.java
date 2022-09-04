@@ -11,6 +11,24 @@ public class Book {
         this.year = year;
     }
 
+    public Book(String author, String name) {
+        this.author = author;
+        this.name = name;
+        year = 1970;
+    }
+
+    public Book(String author) {
+        this.author = author;
+        name = "no name";
+        year = 1970;
+    }
+
+    public Book() {
+        author = "no author";
+        name = "no name";
+        year = 1970;
+    }
+
     public int getYear() {
         return year;
     }
@@ -35,7 +53,6 @@ public class Book {
         this.year = year;
     }
 
-    @Override
     public String toString() {
         return "Book{" +
                 "author='" + author + '\'' +
