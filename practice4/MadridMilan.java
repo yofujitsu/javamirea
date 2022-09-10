@@ -8,9 +8,9 @@ public class MadridMilan extends JFrame {
     private JButton MilanButton = new JButton("AC Milan");
     private JButton RealMadridButton = new JButton("Real Madrid");
     private JPanel panel = new JPanel();
-    private JLabel result = new JLabel();
-    private JLabel lastScored = new JLabel();
-    private Label winner = new Label();
+    private JLabel result = new JLabel("Result: 0 X 0");
+    private JLabel lastScored = new JLabel( "Last Scored: ");
+    private Label winner = new Label("Winner: ");
     private int milan = 0;
     private int real = 0;
 
